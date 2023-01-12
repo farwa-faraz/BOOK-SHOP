@@ -1,4 +1,7 @@
-
+html, body
+{
+  background-color: #fef8ff;
+}
 input
 {
     background: grey
@@ -52,4 +55,80 @@ float: right;
 color: #ff7700;
 }
 
+.book_title
+{
+    font-size: 25px;
+}
 
+.copy_right_footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 1770px;
+    height: 40px;
+    background-color: #ff000000;
+    text-align: right;
+    margin-bottom: 60px;
+}
+  
+#next_screen 
+{
+    width: 130px;
+    height: 90px;
+}
+
+#button_community
+{
+    background-color:#ffffff00;
+    border-radius: 100px;
+    border-color: #ffffff00;
+}
+
+.header
+{
+	color: rgb(0, 0, 0);
+    font-family:cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.header img
+{
+	width: 80px;
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+
+.login_div
+{
+	background: rgb(255, 255, 255);
+  float: none;
+  border-radius: 25px;
+  margin-top: 50px;
+  box-shadow: 9px 8px 7px rgba(190, 190, 190, 0.642);
+}
+
+#user
+{
+  border-radius: 15px;
+  height: 45px;
+  width: 320px;
+  background-color: rgb(210, 210, 210);
+  border-width: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.logo
+{
+  width: 300px;
+}
+
+#login_button
+{
+	border-radius: 15px;
+  width: 320px;
+  height: 55px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: rgb(76,41,83)
+}
