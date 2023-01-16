@@ -204,4 +204,10 @@ p
   margin-top: 10px;
   transform: scaleX(-1);
   margin-right: 600px;
+  color: #000000;
+}
+
+#list
+{
+  margin-bottom: -80px;
 }
