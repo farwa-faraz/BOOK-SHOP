@@ -39,7 +39,7 @@ var name=message_data["name"]
 message=message_data["message"]
 like=message_data["like"]
 
-name_tag = "<h4>"+ name +"<img class='user_tick' src='tick.png'></h4>";
+name_tag = "<h4>"+ name +"<img class='user_tick' src='icon.png'></h4>";
 message_tag = "<h4 class='message_h4'>"+ message + "</h4>";
 button_1 = "<button class='btn btn-warning' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'>";
 button_2 = "<span class='glyphicon glyphicon-thumbs-up'>Like: "+ like +"</span> </button> <hr>";

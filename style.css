@@ -193,7 +193,8 @@ p
 
 .user_tick
 {
-	width:20px;
+	width: 30px;
+  margin-bottom: 20px;
 }
 
 #main_page
@@ -203,11 +204,16 @@ p
   font-size: 30px;
   margin-top: 10px;
   transform: scaleX(-1);
-  margin-right: 2000px;
+  margin-right: 1000px;
   color: #000000;
 }
 
 #list
 {
   margin-bottom: -80px;
+}
+
+h6
+{
+  margin-right: 10px;
 }
